@@ -70,7 +70,11 @@ Sign in page design
     border: none;
     padding: 10px 5px;
     font-size: 18px;
-    border-radius: 5px;;
+    border-radius: 5px;
+    
+}
+.wrapper .form .signin a{
+    text-decoration: none;
 }
 .wrapper .form .signin button:hover{
     background:rgb(76, 76, 192);
@@ -183,4 +187,217 @@ Sign in page design
 ::placeholder{
     color: white;
     opacity:0.5;
+}
+
+
+/*------------------------------------------------
+---------Customer Info Design---------------------
+----------------------------------------------*/
+
+.all-area{
+    padding-bottom: 30px;
+}
+.all-area h1{
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.all-area .form{
+    border: 1px solid gray;
+    width: 60%;
+    display: block;
+    margin: auto;
+    height: auto;
+    background: rgb(37, 37, 37);
+    opacity: 0.8;
+    border-radius: 15px;
+    color: white;
+}
+.all-area .form input{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding: 10px 0px;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    border:1px solid gray;
+}
+.all-area .form label{
+    display: block;
+    margin-left: 80px;
+    padding: 15px 0px;
+    font-size: 20px;
+
+}
+.all-area .form .customer-id{
+    padding-top: 20px;
+}
+.all-area .form .customer-id label{}
+.all-area .form .customer-id input{}
+.all-area .form .customer-id ::placeholder{}
+.all-area .form .customer-name{}
+.all-area .form .customer-name label{}
+.all-area .form .customer-name input{}
+.all-area .form .customer-name ::placeholder{}
+.all-area .form .customer-address{}
+.all-area .form .customer-address label{}
+.all-area .form .customer-address input{}
+.all-area .form .customer-address ::placeholder{}
+.all-area .form .phone-no{}
+.all-area .form .phone-no label{}
+.all-area .form .phone-no ::placeholder{}
+.all-area .form .email{}
+.all-area .form .email label{}
+.all-area .form .email input{}
+.all-area .form .email ::placeholder{}
+.all-area .form ::placeholder{
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+}
+.all-area .form .save{
+    margin-left: 80px;
+    padding: 20px 0;
+}
+.all-area .form .save button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background: gray;
+}
+.all-area .form .save button:hover{
+    background: rgb(28, 28, 204);
+    color: white;
+    border: none;
+}
+.all-area .form .save a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*----------------------------------------------------------------
+--------------------search page design---------------------------
+----------------------------------------------------------------*/
+
+.bg-image{
+    background: white;
+}
+.bg-image .search-bar{
+    padding-bottom: 40px;
+}
+.bg-image .search-bar h1{
+    text-align: center;
+    padding: 40px 0px;
+}
+.bg-image .search-bar .inner-search-bar{
+}
+.bg-image .search-bar .save-button{
+    padding-top: 10px;
+}
+.bg-image .search-bar .save-button a{
+    text-decoration: none;
+}
+.bg-image .search-bar .save-button :hover{
+    color: white;
+    background: rgb(75, 72, 72);
+}
+.bg-image .search-bar .save-button button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    
+    
+}
+.bg-image .search-bar .inner-search-bar #searching-place{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid gray;
+    font-size: 17px;
+
+}
+.bg-image .search-bar .inner-search-bar #searching-place option{}
+}
+.bg-image .search-bar .inner-search-bar option{
+}
+
+.bg-image .three-img-one-block{
+    display: flex;
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+.bg-image .three-img-one-block .first-img{
+    width: 33%;
+    margin: 0px 10px;
+    
+}
+.bg-image .three-img-one-block .first-img h2{}
+.bg-image .three-img-one-block .first-img img{}
+.bg-image .three-img-one-block .second-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+
+.bg-image .three-img-one-block .second-img h2{}
+.bg-image .three-img-one-block .third-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-one-block .third-img img{}
+.bg-image .three-img-one-block h2{
+    text-align: center;
+    color:black;
+    padding: 15px 0;
+}
+.bg-image .three-img-one-block img{
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+}
+.bg-image .three-img-one-block img:hover{
+    border-radius: 50%;
+}
+
+
+/*three image another block*/
+
+.bg-image .three-img-another-block{
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.bg-image .three-img-another-block .first-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block .second-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block .third-img{
+    width: 33%;
+    margin: 0px 10px;
+}
+.bg-image .three-img-another-block img{
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+}
+.bg-image .three-img-another-block img:hover{
+    border-radius: 50%;
+}
+.bg-image .three-img-another-block h2{
+    margin: 0px 10px;
+    text-align: center;
+    color:black;
+    padding: 15px 0;
+
 }
