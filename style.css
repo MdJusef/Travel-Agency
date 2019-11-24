@@ -16,7 +16,7 @@ Sign in page design
     padding: 50px 0px;
 }
 .wrapper .form{
-    background: rgb(46, 44, 44);
+    background: rgba(0, 0, 0, 0.411);
     width: 50%;
     height:auto;
     font-size: 23px;
@@ -25,6 +25,7 @@ Sign in page design
     color: white;
     opacity: 0.8;
     border-radius: 15px;
+    padding-top: 30px;
 
 }
 .wrapper .form .user{
@@ -40,9 +41,10 @@ Sign in page design
     padding: 10px 0px;
     font-size: 18px;
     color: white;
-    background: rgb(46, 44, 44);
     padding-left: 7px;
-    border: 1px solid gray;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+   border-radius: 5px;
 }
 .wrapper .form .pass{
     margin-left: 10%;
@@ -57,9 +59,11 @@ Sign in page design
     padding: 10px 0px;
     font-size: 18px;
     color: white;
-    background: rgb(46, 44, 44);
     padding-left: 7px;
-    border: 1px solid gray;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+   border-radius: 5px;
+    
 }
 .wrapper .form .signin{
     width: 80%;
@@ -75,9 +79,10 @@ Sign in page design
 }
 .wrapper .form .signin a{
     text-decoration: none;
+    color:white;
 }
 .wrapper .form .signin button:hover{
-    background:rgb(76, 76, 192);
+    background:rgba(65, 63, 63, 0.925);
 }
 .wrapper .form .noaccount{
     margin-left: 10%;
@@ -89,8 +94,9 @@ Sign in page design
     color:red;
 }
 .wrapper .form ::placeholder{
+    font-size: 18px;
     color: white;
-    opacity:0.5
+    opacity: 0.7;
     
 }
 
@@ -101,93 +107,131 @@ Sign in page design
  sign up page design 
  ---------------------*/
 
+
  body{
      background-image: url(images/bg.jpg);
      background-size: cover;
-    
-
  }
- .header h1{
+.header{}
+.header h1{
     text-align: center;
-    font-size:45px;
-    padding: 50px 0px;
-    margin-bottom: 25px;
+    padding: 30px 0px;
     color: white;
-
 }
- .signup {
-    position: relative;
-    left: 334px;
-    background: rgb(46, 44, 44);
-    width: 50%;
-    height: auto;
-    color: white;
-    opacity: 0.8;
-    font-size: 19px;
-    margin-bottom: 50px;
-    border-radius: 15px;
-}
-
-.signup .form h1{ 
-    padding: 20px 0; 
-}
-.signup .form{
+.signup-form{
+    background: rgba(0, 0, 0, 0.411);
     width: 60%;
-    height: auto;
-    margin-left:20%;
-}
-.signup .form .inner_form{}
-.signup .form .pnandoption{
-    display:flex;
-}
-#option{
-    margin:10px 0px;
-    padding: 10px 10px;
-    background: rgb(46, 44, 44);
-    color: white;
-    font-size:15px;
-}
-#phnno{
-    padding-right: 65px;
-}
-.form .inner_form label{}
-.signup .form .inner_form input{
     display: block;
-    background: rgb(46, 44, 44);
-    width: 100%;
-    margin: 10px 0px;
-    padding: 10px 10px;
-    color: white;
-    font-size: 15px;
-    ;
+    margin: auto;
+    padding: 30px 0px;
+    border-radius: 15px;
+    
 }
-.signup .form .inner_form .flex a{
-    color:red;
+.signup-form .name{}
+.signup-form .name label{}
+.signup-form .name input{}
+.signup-form .name ::placeholder{}
+
+.signup-form .c-codeand-ph{
+    display: block;
+    margin: auto;
+}
+.signup-form .c-codeand-phn .country-code label{}
+.signup-form .c-codeand-phn .combine select{
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(139, 128, 128, 0.527);
+    background: rgba(128, 128, 128, 0.418);
+}
+
+.signup-form .c-codeand-phn .combine{
+    display: flex;
+    margin-left: 10%;
+}
+
+.signup-form .c-codeand-phn .phnno{
+    width: 100%;
+}
+.signup-form .c-codeand-phn .phnno input{
+    margin-left:0px;
+    width: 87%;
+}
+.signup-form .c-codeand-phn .phnno ::placeholder{}
+
+.signup-form .email{}
+.signup-form .email label{}
+.signup-form .email input{}
+.signup-form .email ::placeholder{}
+
+.signup-form .pass{}
+.signup-form .pass label{}
+.signup-form .pass input{}
+.signup-form .pass ::placeholder{}
+
+.signup-form .buttonandamember{
+    display: flex;
+    padding: 25px 0px;
+}
+.signup-form .buttonandamember .button{
+    width: 50%;
+    margin-right: 10%;
+    text-align: end;
+}
+.signup-form .buttonandamember .button button{
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.signup-form .buttonandamember .button button:hover{
+    color: rgba(255, 255, 255, 0.726);
+    background:gray;
+}
+.signup-form .buttonandamember .button a{
+    text-decoration: none;
+    
+}
+.signup-form .buttonandamember .amember{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.signup-form .buttonandamember .amember p{}
+.signup-form .buttonandamember .amember a{
+    color: rgb(173, 58, 58);
     text-decoration: none;
 }
-
-.signup .form .inner_form button {
-    margin: 17px 0px;
-    padding: 10px 20px;
-    margin-left: 75px;
-    border:none;
-    border-radius: 5px;
+.signup-form .buttonandamember .amember a:hover{
+    color: rgb(236, 18, 18);
 }
-.signup .form .inner_form button:hover{
-    background:rgb(76, 76, 192);
-    
-}
-.signup .form .inner_form p{}
-.signup .form .inner_form .flex{
-    display:flex;
-}
-.signup .form .inner_form .flex p{
-    padding: 20px 0px;
-}
-::placeholder{
+.signup-form ::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
     color: white;
-    opacity:0.5;
+    opacity: 0.7;
 }
+
+.signup-form input{
+   padding: 10px 0px;
+   width: 80%;
+   border-radius: 5px;
+   color: white;
+   display: block;
+   margin: auto;
+   border: 1px solid rgba(139, 128, 128, 0.527);
+   background: rgba(128, 128, 128, 0.418);
+}
+.signup-form label{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 82px;
+}
+
+
 
 
 /*------------------------------------------------
